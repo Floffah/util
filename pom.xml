@@ -20,6 +20,14 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Floffah Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Floffah/util</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>papermc-repo</id>
